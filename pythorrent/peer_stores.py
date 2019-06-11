@@ -54,7 +54,7 @@ def store_from_url(url):
 class TrackerException(Exception):
     pass
     
-class Tracker(object)
+class Tracker(object):
     PEER = Peer
     TRACKER_INTERVAL = 1800 # seconds
     
